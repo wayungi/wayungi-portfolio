@@ -20,11 +20,11 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
         <li>About</li>
         <li>Skills</li>
+        <li>Experience</li>
         <li>Projects</li>
-        <li>contact</li>
+        <li>Contact Me</li>
       </ul>
 
       {/* hamburger */}
@@ -34,11 +34,11 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <ul className={nav ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center' : 'hidden'}>
-        <li className="py-2 text-4xl z-10">Home</li>
         <li className="py-2 text-4xl z-10">About</li>
         <li className="py-2 text-4xl z-10">Skills</li>
+        <li className="py-2 text-4xl z-10">Experience</li>
         <li className="py-2 text-4xl z-10">Projects</li>
-        <li className="py-2 text-4xl z-10">contact</li>
+        <li className="py-2 text-4xl z-10">Contact Me</li>
       </ul>
 
       {/* social icons */}
