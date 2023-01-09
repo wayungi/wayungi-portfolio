@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
 
       {/* hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} tabIndex={0} onKeyDown={handleClick} className="md:hidden z-10" role="button">
         {nav ? <FaTimes /> : <FaBars />}
       </div>
 
