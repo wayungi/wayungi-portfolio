@@ -15,19 +15,17 @@ const Navbar = () => (
       />
     </div>
 
-    {/* largre screen menu */}
-    <div>
-      <ul className="flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>contact</li>
-      </ul>
-    </div>
+    {/* menu */}
+    <ul className="hidden md:flex">
+      <li>Home</li>
+      <li>About</li>
+      <li>Skills</li>
+      <li>Projects</li>
+      <li>contact</li>
+    </ul>
 
     {/* hamburger */}
-    <div className="hidden">
+    <div className="md:hidden">
       <FaBars />
     </div>
 
