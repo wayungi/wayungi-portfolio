@@ -33,7 +33,7 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div onClick={handleClick} tabIndex={0} onKeyDown={handleClick} className="md:hidden z-10" role="button">
-        {nav ? <FaTimes /> : <FaBars />}
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {/* Mobile menu */}

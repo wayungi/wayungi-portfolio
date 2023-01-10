@@ -1,11 +1,7 @@
-import { HiArrowNarrowRight } from 'react-icons';
+import React from 'react';
 
-const About = () => {
-  const x = 0;
-
-  return (
-    <div className="bg-[#0a192f] w-full h-screen" />
-  );
-};
+const About = () => (
+  <div>About</div>
+);
 
 export default About;
