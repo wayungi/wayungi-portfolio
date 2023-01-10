@@ -1,7 +1,7 @@
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => (
-  <div name="about" className="bg-[#0a192f] w-full h-screen">
+  <div name="home" className="bg-[#0a192f] w-full h-screen">
     <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
       <p className="text-3xl text-blue-600 py-2">Hello, my name is </p>
       <h1 className="text-2xl sm:text-5xl font-bold text-gray-300 py-2">Francis Wayungi</h1>
