@@ -12,7 +12,7 @@ const Skills = () => (
     {/* skills container */}
     <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
       <div className="text-center sm:text-left sm:ml-8 lg:ml-20 pb-2">
-        <p className="text-4xl font-bold inline text-gray-300">Experience</p>
+        <p className="text-4xl font-bold inline text-gray-300">Skills</p>
         {/* <p>I have worked with te following technologies</p> */}
       </div>
 
